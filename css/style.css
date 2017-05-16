@@ -1,19 +1,14 @@
-/*
-  Theme Name: Dynamo
-  Description: Cool visual theme
-  Author: Andrew Hawes
-  Author URI: http://hausofhawes.com
-  Version: 1.0
-*/
-
-@import "https://fonts.googleapis.com/css?family=Droid+Sans";
+@import "http://fonts.googleapis.com/css?family=Droid+Sans";
 
 body {
   font-family: 'Droid Sans', serif;
   line-height: 1.7em;
+  background: #232323;
+  color: #fff;
 }
 
 a {
+  color: #f9992b;
   text-decoration: none;
 }
 
@@ -49,6 +44,8 @@ header .header_r {
 }
 
 .main-nav {
+  background: #333;
+  color: #fff;
   padding: 15px 0;
 }
 
@@ -59,12 +56,14 @@ header .header_r {
 }
 
 .main-nav a {
+  color: #fff;
   padding: 15px;
   text-decoration: none;
 }
 
 .main-nav a:hover {
   color: #000;
+  background: #f9992b;
 }
 
 .showcase {
@@ -91,6 +90,8 @@ header .header_r {
 }
 
 .caption {
+  background: #333;
+  color: #fff;
   padding: 15px;
   margin-top: -10px;
 }
@@ -103,6 +104,7 @@ header .header_r {
 
 .post-wrap {
   psdding: 10px;
+  border: 1px #666 solid;
   border-radius: 10px;
   margin-top: 30px;
   overflow: auto;
@@ -111,30 +113,36 @@ header .header_r {
 .post {
   margin-bottom: 20px;
   padding-bottom: 20px;
+  border-bottom: 1px #333 solid;
   overflow: auto;
 }
 
-.post-thumb img {
-  height: auto;
+.meta {
+  border-bottom: 4px #f9992b double;
 }
 
 .button {
   display: inline-block;
+  background: #333;
+  color: #fff;
   padding: 10px 20px;
   border: 1px #232323 solid;
 }
 
 .button:hover {
+  background: #f9992b;
   color: #000;
 }
 
 footer {
+  background: #333;
   text-align: center;
   padding: 20px;
   margin-top: 20px;
 }
 
 .bar {
+  background: #f9992b;
   color: #000;
   padding: 20px 0;
   margin-bottom: 20px;
@@ -159,8 +167,4 @@ footer {
 .sidebar-widget li {
   line-height: 2.2em;
   border-bottom: 1px #666 solid;
-}
-
-.current_page_item a {
-  color: #000;
 }
